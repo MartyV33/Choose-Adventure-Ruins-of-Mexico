@@ -1,1 +1,179 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#start-game-button {
+    z-index: 4;
+}
+
+#initial-background {
+    background-image: url('https://i.pinimg.com/originals/49/32/ea/4932ea1ede694b11c5d2d6ab401e45a0.jpg');
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+header {
+    background-color: rgba(66, 63, 63, 0.485);
+    color:white;
+    padding:10px 0;
+    position:relative;
+    z-index:2;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#game-title {
+    font-size:5vw;
+    font-family: 'Brush Script MT';
+    color: rgb(110, 133, 113);
+    border:rgb(255, 255, 255);
+    border-radius: 20%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+    pointer-events: none;
+    z-index: 3;
+}
+
+#story-section, #choices-section {
+    position:relative;
+    z-index: 2;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    background: none;
+    box-shadow: none;
+}
+
+#choice-section {
+    margin-top: 40px;
+}
+
+#story-text {
+    font: 'brush script';
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #444;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#story-section {
+    margin: 20px;
+}
+
+#art-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: 0;
+}
+
+.choice-container {
+    margin:10px 0;
+}
+
+.choice-button {
+    position: relative;
+    display:block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #466247c2;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+    background-size: contain;
+}
+
+.choice-button:hover {
+    background-color: #45a049;
+}
+
+.choice-image {
+    width: 1000px;
+    height: 650px;
+    object-fit:cover;
+}
+
+#start-button {
+    width:200px;
+    height: 50px;
+    background-color: rgba(211,211,211, 0.3) !important;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'brush stroke';
+    position: absolute;
+    top:50%;
+    left: 6.5%;
+    margin:20px;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    cursor:pointer;
+}
+
+#start-button:hover {
+    background-color:rgba(221,220,220,0.5);
+}
+
+#start-button, .choice-button {
+    position: relative;
+    z-index: 10;
+}
+
+.special-layout #story-text {
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding:20px;
+    max-width: 800px;
+    text-align: left;
+}
