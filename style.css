@@ -52,7 +52,7 @@ header {
 #game-title {
     font-size:5vw;
     font-family: 'Brush Script MT';
-    color: rgb(110, 133, 113);
+    color: #2e4d2e;
     border:rgb(255, 255, 255);
     border-radius: 20%;
     text-align: center;
@@ -128,7 +128,7 @@ header {
 }
 
 .choice-button:hover {
-    background-color: #45a049;
+    background-color: #2e7d32;
 }
 
 .choice-image {
@@ -140,7 +140,7 @@ header {
 #start-button {
     width:200px;
     height: 50px;
-    background-color: rgba(211,211,211, 0.3) !important;
+    background-color: rgba(169,169,169, 0.3) !important;
     color:rgb(0, 0, 0);
     font-size: 25px;
     font-family: 'brush stroke';
@@ -157,7 +157,7 @@ header {
 }
 
 #start-button:hover {
-    background-color:rgba(221,220,220,0.5);
+    background-color:rgba(169,169,169, 0.5);
 }
 
 #start-button, .choice-button {
