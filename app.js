@@ -43,7 +43,7 @@ const scenes = [
         choices: [
             {text: "Return to start", nextScene: "start"}
         ],
-        art: "https://github.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/blob/main/istockphoto-537691532-612x612.jpg?raw=true"
+        art: "https://raw.githubusercontent.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/main/istockphoto-537691532-612x612.jpg"
     },
     {
         id: "ancient_door",
