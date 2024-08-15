@@ -43,7 +43,7 @@ const scenes = [
         choices: [
             {text: "Return to start", nextScene: "start"}
         ],
-        art: "file:///C:/Users/marti/Downloads/istockphoto-537691532-612x612.jpg"
+        art: "https://github.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/blob/main/istockphoto-537691532-612x612.jpg?raw=true"
     },
     {
         id: "ancient_door",
@@ -69,7 +69,7 @@ const scenes = [
         choices: [
             {text: "follow the light to the exit?", nextScene:"ancient_tunnel"}
         ],
-        art:"///C:/Users/marti/Downloads/1000_F_319123075_yqDQGeMObfla1X8umu83M2FXrjoC2q8q.jpg"
+        art:"https://github.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/blob/main/1000_F_319123075_yqDQGeMObfla1X8umu83M2FXrjoC2q8q.jpg?raw=true"
     },
     {
         id:"altar_room",
@@ -85,7 +85,7 @@ const scenes = [
         choices: [
             {text: "Run to the entrence!", nextScene: "start"}
         ],
-        art:"file:///C:/Users/marti/Downloads/1000_F_530809962_N7vprTapt58qKrY9eb4UTHgTgr8kvK15.jpg"
+        art:"https://github.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/blob/main/1000_F_530809962_N7vprTapt58qKrY9eb4UTHgTgr8kvK15.jpg?raw=true"
     }
 
 ];
