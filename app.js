@@ -2,7 +2,7 @@
 const scenes = [
     {
         id: "start",
-        description: "Deep in the mountains of ancient Mexico, you discover a large archway adorned with ancient symbols. Your mission is to find the Altar of Coatepex hidden within these ruins. Once accompanied by a team, you now venture alone, as they were lost to the spirits haunting this range. The quest to uncover the lost altar rests soley on your shoulders.",
+        description: "Deep in the mountains of ancient Mexico, you discover a large archway adorned with ancient symbols. Your mission is to find the Altar of Coatepex hidden within these ruins. Once accompanied by a team, you now venture alone, as they were lost to the spirits haunting this range... Instructions: Traverse through the Ancient Temple of Mexico, making choices on which path to take, and properly find the treasured Altar on the final decision!",
         choices: [
             { text: "Observe the Area", nextScene: "look_around"},
             { text: "Investigate the Symbols", nextScene: "investigate_symbols" },
