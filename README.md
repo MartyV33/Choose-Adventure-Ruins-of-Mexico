@@ -31,6 +31,11 @@ https://martyv33.github.io/Choose-Adventure-Ruins-of-Mexico/
 
 Utilized Index.html, Style.css, App.js. Using Visiual Stuido Code and GitHub.
 
+#### Attributions
+
+https://www.istockphoto.com/stock-photos
+https://www.google.com/imghp?hl=en&tab=ri&ogbl
+https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources/build-a-browser-game-walkthrough.html
 
 #### Project Requirements 
 
