@@ -140,7 +140,7 @@ header {
 #start-button {
     width:200px;
     height: 50px;
-    background-color: rgba(169,169,169, 0.3) !important;
+    background-color: rgba(169,169,169, 0.5) !important;
     color:rgb(0, 0, 0);
     font-size: 25px;
     font-family: 'brush stroke';
