@@ -2,7 +2,7 @@
 Game Name: Temple Ruins of Mexico
 ## Screenshot/logo
 
- ![Temple-Ruins-of-Mexico](\home\martin\code\ga\labs\Choose-Adventure-Ruins-of-Mexico\Images)
+ ![Temple-Ruins-of-Mexico](\home\martin\code\ga\labs\Choose-Adventure-Ruins-of-Mexico\Images\Temple-Ruins-of-Mexico)
 
 ## Instructions
 This is a "Choose Your Own Adventure" game set in the mysterious Ruins of Mexico. Players will navigate through various choices that impact the story and uncover hidden secrets. Make the correct choices and find your way through the ruins to the treasured altar!
