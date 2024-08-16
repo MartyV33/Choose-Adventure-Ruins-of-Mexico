@@ -1,0 +1,79 @@
+GitHub repo link: https://github.com/MartyV33/Choose-Adventure-Ruins-of-Mexico.git
+
+Project Deployable Link: https://martyv33.github.io/Choose-Adventure-Ruins-of-Mexico/.git 
+
+1. Game Choice: "Choose Your Own Adventure". Will be based in the Ruins of Mexico.
+2. User Stories:
+  1. As a user, I want to immerse myself in an intriguing storyline set in the Ancient Ruins of Mexico, where my choices impact the story.
+  2. As a user, I expect meaningful choices that lead to different outcomes, creating replay value and a personalized experience.
+ 3. As a user, I look forward to encountering visual elements (Such as ancient art) that enhance the atmosphere and evoke the mysterious setting.
+ 4. As a user, I want to uncover secrets, solve puzzles, and explore divergent paths within the ruins, leading to multiple endings.
+
+3. Storing the scenes:
+   I will be using Data Structure to store the scenes. Using either an array or object to store the scenes. Using data structure, each scene can have properties like Text description, choices, and art references. 
+
+
+4.   Persudocode:
+// INTRODUCTION: "You find yourself standing at the entrance of the ancient Ruins of Mexico. As you step forward, you face crucial decisions 
+
+// CONSTANTS 
+//CONSTANT Ending Good = "good"
+//CONSTANT Ending Bad = "bad"
+//CONSTANT Ending neutral = "neutral"
+
+//State Variables
+// VAR Current Scene
+
+// Initialization
+//Function init( )
+// IF scene === "Start"
+   // Display intro text
+   // Show buttons for choices ("Enter the Ruins")
+      //ADD EVENT LISTENERS ( ) 
+     // HANDLE BUTTON CLICKS
+//ELSE IF scene === "Dark Tunnel"
+   // Describe a dark tunnel
+   // Show buttons for exploring or turning back
+    // ADD EVENT LISTENERS ( )
+//ELSE IF scene === "hidden chamber"
+   // Describe a hidden chamber
+   // Show buttons for searching or leaving
+     //ADD EVENT LISTENERS ( )
+// ELSE IF scene === "altar"
+   // Describe an ancient altar
+   // Show buttons for touching or avoiding
+    // ADD EVENT LISTENERS ( )
+// END IF
+
+// EVENT LISTENERS 
+ // FUNCTION Add Event Listeners ( )
+  // Add event listeners to buttons 
+  // Example: buttonExplore.addEventListener( "Click" , handleChoice ("explore"))
+  // Repeat for other buttons 
+
+// Rendering and Art
+ // Function render( )
+   // Update DOM with current scene text and buttons
+   // Display art related to the scene 
+
+
+// ENDINGS 
+ // FUNCTION checkEndings( )
+  // IF currentScene === "altar" && playerChoice === "touch"
+    // Display ending message  and art (good ending)
+ // ELSE IF currentScene === "dark tunnel" && playerChoice === "explore"
+   // Display ending message and art (bad ending) 
+ // ELSE IF currentScene === "hidden Chamber" && playerChoice === "search"
+   // Display ending message and art (neutral ending)
+//END IF
+
+// GAME FLOW
+ // Initialize game init( )
+ // DisplayScene("start"
+
+// Wait for user input (button clicks)
+// Update state variables based on choices
+//  Render the scene
+
+// When the user clicks "Play Again":
+// Reset state variables and start over
