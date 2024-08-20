@@ -160,7 +160,7 @@ const scenes = [
             {text: "leave the room empty handed", nextScene: "hidden_room_1"}
         ],
         art:"https://t4.ftcdn.net/jpg/04/20/93/65/360_F_420936591_474BVzxhwjGBObbbZvrnuonfWXQBQOML.jpg"
-    },
+    }
 
 ];
 
