@@ -81,12 +81,86 @@ const scenes = [
     },
     {
         id:"altar",
-        description: "As you appraoch the Altar of Coatepex, The light on the top shines gold with a large gem sitting in middle for grabs! CONGRATS YOU WIN!",
+        description: "As you appraoch the Altar of Coatepex, The light on the top shines gold with a large gem sitting in middle for grabs! CONGRATS YOU WIN! Or so you thought...",
         choices: [
-            {text: "Run to the entrence!", nextScene: "start"}
+            {text: "Run to the entrence!", nextScene: "start"},
+            {text: "Search for Hidden Rooms", nextScene: "hidden_room_1"}
         ],
         art:"https://raw.githubusercontent.com/MartyV33/Choose-Adventure-Ruins-of-Mexico/main/1000_F_530809962_N7vprTapt58qKrY9eb4UTHgTgr8kvK15.jpg"
-    }
+    },
+        {
+        id:"hidden_room_1",
+        description: "After reaching the final Altar, You look around to see a hidden crevas in the wall, narrow enough to squeese through. Inside you find a hidden room. Dark, Dusty, and Dirty.",
+        choices: [
+            {text: "Read the scripture on the wall", nextScene: "Wall_Scripture"},
+            {text: " Scream, 'WHY ME?!?' and punch the wall", nextScene: "hole_in_wall"},
+            {text: " Try and find your way back", nextScene: "altar_room"}
+        ],
+        art: "https://t4.ftcdn.net/jpg/06/78/05/13/360_F_678051375_1XW505XnOdq6i1cluzeupVsAPx8qioZo.jpg" // put a dark hidden cave room image.
+    },
+    {
+        id:"Wall_Scripture",
+        description: "Reading the scripture, you cant identify what all of it said. However you did manage to gather this, ' With all that remains of this deep cavern, none shall be saved unless proven worthy!'",
+        choices: [
+            {text: "Read Aloud", nextScene: "Wall_scripture_fight"},
+            {text: "Read Quietly", nextScene: "Wall_Scripture_death"},
+            {text: "Don't Read", nextScene: "altar"}
+        ],
+        art:"https://images.nightcafe.studio/jobs/hMkO7DXeVjJmHKLfsSnH/hMkO7DXeVjJmHKLfsSnH--1--s59d2.jpg?tr=w-1600,c-at_max" // put a picutre of a wall scripture on a cave wall.
+    },
+    {
+        id: "hole_in_wall",
+        description: " After crying out,'WHY ME?!?' you strike the wall with full aggression. As the hole quickly sucks in all the dust and air like a vaccume taking the breath right out of you. It opens up to a compacted room filled with giant sculptures in forms of different creatures all circled around the center...",
+        choices: [
+            {text: "Search the room", nextScene: "hidden_gem"},
+            {text: "Observe the Sculptures", nextScene: "sculptures"},
+            {text: "Try and destroy sculptures", nextScene: "broken_down_sculptures"}
+        ],
+        art: "https://3.bp.blogspot.com/_G96gxvrHqrE/SmUB4j5JmBI/AAAAAAAAHFw/FJAnxi_doO8/s400/RyanChurchArtTombOfthePrimes.jpg" // put a pic of a hole in a cave wall, Egypt ("ALIENS did that, yup") hole in wall.
+    },
+    {
+        id:"Wall_scripture_fight",
+        description: "With nowhere left to run, You take a good look around and notice the room start to fill with strange 4 legged creatures. Defenseless with no weapons, whats your first choice?",
+        choices: [
+            {text:"Find a weapon nearby and give it your all?", nextScene:"fight_death"},
+            {text:"Let the creatures come to you", nextScene: "fight_nutural"},
+            {text:"Try and run", nextScene: "fight_win"}
+        ],
+        art: "https://tombraiderhorizons.com/wp-content/uploads/2017/01/tomb-raider-underworld-naga.jpg?w=560" // put a pic of a fight inside of a cavern.
+    },
+    {
+        id: "Wall_Scripture_death",
+        description: "After reading the scripture quietly, you finish and stand quietly still awaiting a response. You look up and notice a giant concrete ball sitting right above you. As you go to step away... the ground beneath your feet feel a preasure plate release from the ground... And it drops... ",
+        choices: [
+            {text:"You died... Damn", nextScene: "start"}
+        ],
+        art: "https://i.redd.it/86cm1hd0d0wa1.jpg"
+    },
+    {
+        id: "hidden_gem",
+        description: "Aproaching the center of the giant sculptures, you notice a mound of sand in the hands of one of the sculptures. Drifting the sand away carefully, you notice a sparkling gem sitting right in middle of the large hand! Looks to be quite the discovery!",
+        choices: [
+            {text: "keep searching the tomb", nextScene:"hole_in_wall"}
+        ],
+        art: "https://img.freepik.com/premium-photo/gem-sits-cave-with-word-gems-it_363412-432.jpg"
+    },
+    {
+        id:"sculptures",
+        description: "After observing the sculptures for quite some time, you notice how they're standing in a formation which seems to be pointing a certain way?",
+        choices: [
+            {text:"Follow pointed direction", nextScene:"hidden_room_2"},
+            {text:"leave the hidden tomb back to the main ruins", nextScene:"hidden_room_1"}
+        ],
+        art: "https://static.wikia.nocookie.net/transformers/images/4/4a/Rotf-tomboftheprimes-film-entrance.jpg/revision/latest?cb=20091207222607"
+    },
+    {
+        id:"broken_down_sculptures",
+        description: "After observing the ancient statues for quite some time, something inside of you told you to start destroying the statues? They start to crumble down easier than you expected? They crumble down as well as any treasure taken or located in this room!",
+        choices: [
+            {text: "leave the room empty handed", nextScene: "hidden_room_1"}
+        ],
+        art:"https://t4.ftcdn.net/jpg/04/20/93/65/360_F_420936591_474BVzxhwjGBObbbZvrnuonfWXQBQOML.jpg"
+    },
 
 ];
 
